@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>12</LangVersion>
+		<RepositoryUrl>https://github.com/OpenSourceKingdom/OSK.Settings</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Description>Provides an implementation for a local storage setting value provider.</Description>
+		<PackageTags>OpenSourceKingdom, OpenSource, settings, local, storage, provider, management, runtime</PackageTags>
+		<Authors>BlankDev117</Authors>
+		<Title>OSK.Extensions.Settings.Local</Title>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+		<PackageReference Include="OSK.Storage.Local" Version="1.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\OSK.Extensions.Settings.Providers\OSK.Extensions.Settings.Providers.csproj" />
+	</ItemGroup>
+
+</Project>
