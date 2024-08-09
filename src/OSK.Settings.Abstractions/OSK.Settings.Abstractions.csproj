@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>12</LangVersion>
+		<RepositoryUrl>https://github.com/OpenSourceKingdom/OSK.Settings</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Description>Provides an abstraction and a set of basic settings for use during runtime.</Description>
+		<PackageTags>OpenSourceKingdom, OpenSource, settings, Abstraction, runtime</PackageTags>
+		<Authors>BlankDev117</Authors>
+		<Title>OSK.Settings.Abstractions</Title>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+</Project>

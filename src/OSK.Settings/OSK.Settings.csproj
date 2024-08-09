@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>12</LangVersion>
+		<RepositoryUrl>https://github.com/OpenSourceKingdom/OSK.Settings</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<Description>Provides a service implementation to validate settings for settings during runtime.</Description>
+		<PackageTags>OpenSourceKingdom, OpenSource, settings, validate, management, runtime</PackageTags>
+		<Authors>BlankDev117</Authors>
+		<Title>OSK.Settings</Title>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+		<PackageReference Include="OSK.Functions.Outputs.Logging.Abstractions" Version="1.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\OSK.Settings.Abstractions\OSK.Settings.Abstractions.csproj" />
+	</ItemGroup>
+
+</Project>
